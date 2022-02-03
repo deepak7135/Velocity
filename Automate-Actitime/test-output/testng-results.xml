@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-31T12:08:32 IST" name="Suite" finished-at="2022-01-31T12:09:24 IST" duration-ms="52001">
+    <groups>
+    </groups>
+    <test started-at="2022-01-31T12:08:32 IST" name="ChromeTest" finished-at="2022-01-31T12:09:24 IST" duration-ms="52001">
+      <class name="test.TestNG2">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:test.TestNG2@56de5251]" started-at="2022-01-31T12:08:32 IST" name="LaunchBrowser" finished-at="2022-01-31T12:08:36 IST" duration-ms="3157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="LaunchBrower()[pri:0, instance:test.TestNG2@56de5251]" started-at="2022-01-31T12:08:36 IST" name="LaunchBrower" finished-at="2022-01-31T12:08:38 IST" duration-ms="2849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrower -->
+        <test-method is-config="true" signature="LaunchlinkActi()[pri:0, instance:test.TestNG2@56de5251]" started-at="2022-01-31T12:08:38 IST" name="LaunchlinkActi" finished-at="2022-01-31T12:08:39 IST" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchlinkActi -->
+        <test-method signature="VerifyUserTab()[pri:0, instance:test.TestNG2@56de5251]" started-at="2022-01-31T12:08:39 IST" name="VerifyUserTab" finished-at="2022-01-31T12:09:23 IST" duration-ms="43986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserTab -->
+        <test-method is-config="true" signature="logoutFiel(org.testng.ITestResult)[pri:0, instance:test.TestNG2@56de5251]" started-at="2022-01-31T12:09:23 IST" name="logoutFiel" finished-at="2022-01-31T12:09:24 IST" duration-ms="804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserTab status=SUCCESS method=TestNG2.VerifyUserTab()[pri:0, instance:test.TestNG2@56de5251] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFiel -->
+        <test-method is-config="true" signature="AfterClas()[pri:0, instance:test.TestNG2@56de5251]" started-at="2022-01-31T12:09:24 IST" name="AfterClas" finished-at="2022-01-31T12:09:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClas -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TestNG2@56de5251]" started-at="2022-01-31T12:09:24 IST" name="closeBrowser" finished-at="2022-01-31T12:09:24 IST" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TestNG2 -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
