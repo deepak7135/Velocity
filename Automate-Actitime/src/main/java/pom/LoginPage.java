@@ -7,7 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 	
-	private WebDriver driver;
+	private WebDriver driver;  
+	
 
       @FindBy  (xpath= "//input[@id='email']" )  // varibale reference of Xpath
       private WebElement username;
