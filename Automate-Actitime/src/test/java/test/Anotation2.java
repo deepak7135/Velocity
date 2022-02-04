@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class Anotation2 {
 	
-	@BeforeTest
+	@BeforeTest 
 	public void test() {
 		System.out.println("before test Anotation2");
 	}
