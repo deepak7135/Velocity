@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
-	
+	//some changes into GitHub
 	private WebDriver driver;  
 	
 
